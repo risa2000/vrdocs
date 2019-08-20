@@ -4,7 +4,7 @@
 
 Not many thoughts so far:
 
-* [**FOV Calculation of a VR headset**](docs/fov_calculation.md)
+* [**VR headset rendered FOV calculation**](docs/fov_calculation.md)
 
 ## License
 

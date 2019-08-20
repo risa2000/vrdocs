@@ -1,4 +1,4 @@
-# FOV calculation of a VR headset
+# VR headset rendered FOV calculation
 
 ## Basic theory
 The idea about using angular dimensions to describe the field of view has been there probably since the first 3D rendering, e.g. OpenGL. But it was popularized by FPS 3D shooters (read Quake), because there, users could actually appreciate its significance.
@@ -171,7 +171,7 @@ This also means:
 
 **If you use `hmdq` to calculate the vertical FOV of the headset, do not run it when the headset is in the parallel mode.**
 
-If you do, you will get incorrect (bigger) value.
+If you do, you can get incorrect (bigger) values.
 
 ### Valve Index
 
@@ -189,13 +189,13 @@ View geometry:
 ```
 then you are using the headset in the parallel projection mode.
 
-## Technical FOV versus the observed one
+## Rendered FOV versus the visible one
 
-Finally, all the calculations described above, in particular the calculation of the _FOV points_ and subsequent _FOVs_ can be performed by the command line tool `hmdq` which queries the headset over OpenVR API (the same way as any other VR application does), collects all the necessary data advertised by the headset, and does the math.
+Finally, all the calculations described above, in particular the calculation of the _FOV points_ and subsequent _rendered FOVs_ can be performed by the command line tool [`hmdq`](https://github.com/risa2000/hmdq) which queries the headset over OpenVR API (the same way as any other VR application does), collects all the necessary data advertised by the headset, and does the math.
 
 The important aspect of this calculation is that it gives reproducible and measurable results, independent of all the variable aspects, which otherwise also influence what the user actually _can see_ in the headset. Among those variable aspects are: the face shape, the eye depth, the distance from the eyes (facepad thickness), the field of view of the lenses, interpupillary distance (IPD), etc.
 
-The FOV values calculated the way described in this article are technical conditions at which the headset operates and at which the application renders the scenes. The user cannot see "more" than these calculated values, because "more" is not rendered by the application. The user can however see less, depending on how all the individual aspects named above impact the whole optical path from the panels to the eyes.
+The values calculated in this article are technical conditions at which the headset operates and at which the application renders the scenes. The user cannot see "more", because "more" is not rendered by the application. The user can however see less, depending on how all the individual aspects named above impact the whole optical path from the panels to the eyes.
 
 ## License
 
