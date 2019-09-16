@@ -40,7 +40,7 @@ the line perpendicular to the rectangle where all three triangles intersect, is
 the view axis, and the eye is at the tip. View axis is always perpendicular to
 the projection plane, or here to the "shape" plane.
 
-[![Basic FOV](./images/basic_fov.dmx.png)](./images/basic_fov.dmx.png)
+[![Basic FOV](./images/basic_fov.dmx.png)](../images/basic_fov.dmx.png)
 
 The magenta triangle marks the horizontal FOV (the horizontal angular range),
 the yellow triangle marks the vertical FOV (the vertical angular range) and the
@@ -105,7 +105,7 @@ the eyes. They are simply just "shape planes" (clipping the view), helping to
 visualize the shape (cut) of the viewing frustum used for the scene rendering
 at a particular distance from the eye.
 
-[![Vive FOV](./images/vive_native_no_ham_over.dmx.png)](./images/vive_native_no_ham_over.dmx.png)
+[![Vive FOV](./images/vive_native_no_ham_over.dmx.png)](../images/vive_native_no_ham_over.dmx.png)
 
 The thing is, with a VR headset, we cannot look at the screens with the naked
 eye because the exact viewing spot to preserve the angular verity is too close,
@@ -198,7 +198,7 @@ another.
 
 This is how it looks on HTC Vive:
 
-[![Vive FOV + HAM](./images/vive_native_ham_over.dmx.png)](./images/vive_native_ham_over.dmx.png)
+[![Vive FOV + HAM](./images/vive_native_ham_over.dmx.png)](../images/vive_native_ham_over.dmx.png)
 
 Here the blue color mesh shows the HAM and the visible part is actually the
 hole in it. The triangles symbolizing the individual FOVs are adapted to
@@ -254,11 +254,11 @@ Pimax 5k+ in Normal FOV (~140° horizontally).
 
 First the "plain" visualization without any FOV triangles to show the canting:
 
-[![Pimax5k+ Normal FOV native top view](./images/p5k_normal_native_above.dmx.png)](./images/p5k_normal_native_above.dmx.png)
+[![Pimax5k+ Normal FOV native top view](./images/p5k_normal_native_above.dmx.png)](../images/p5k_normal_native_above.dmx.png)
 
 and then the full picture:
 
-[![Pimax5k+ Normal FOV native view](./images/p5k_normal_native_over.dmx.png)](./images/p5k_normal_native_over.dmx.png)
+[![Pimax5k+ Normal FOV native view](./images/p5k_normal_native_over.dmx.png)](../images/p5k_normal_native_over.dmx.png)
 
 The HAM and the colored triangles for the different FOVs have been already
 described above. What is new is the green area, which is the projection of the
@@ -325,7 +325,7 @@ non-parallel screens.
 The following picture illustrates how things get messy in this mode. (Courtesy
 of Pimax 5k+, Normal FOV, PP mode off (blue and green) and PP mode on (red)):
 
-[![Pimax 5k+ All-in](./images/p5k_normal_pp_over.dmx.png)](./images/p5k_normal_pp_over.dmx.png)
+[![Pimax 5k+ All-in](./images/p5k_normal_pp_over.dmx.png)](../images/p5k_normal_pp_over.dmx.png)
 
 First you may notice that in order to keep the rendering overhead on the
 manageable level, the red rectangle (which is the shape of the "pretended"
