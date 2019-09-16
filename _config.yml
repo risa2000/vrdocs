@@ -1,5 +1,6 @@
 # theme
-theme: bulma-clean-theme
+# theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 permalink: pretty
 
 # site settings
@@ -9,6 +10,7 @@ author: Richard Musil
 # plugins
 plugins:
   - jekyll-relative-links
+  - jekyll-remote-theme
 
 # defaults
 defaults:
