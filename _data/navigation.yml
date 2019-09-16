@@ -1,0 +1,9 @@
+- name: Docs
+  link: /#
+  dropdown:
+    - name: HMD FOV calculation
+      link: /docs/hmd_fov_calculation/
+- name: Changelog
+  link: /Changelog/
+- name: Contact
+  link: /contact/

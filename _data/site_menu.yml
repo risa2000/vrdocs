@@ -1,0 +1,7 @@
+- label: Site Menu
+  items:
+    - name: Docs
+      link: /
+      items:
+        - name: HMD FOV calculation
+          link: /docs/hmd_fov_calculation/
