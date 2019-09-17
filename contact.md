@@ -5,8 +5,7 @@ title: Contact
 # Contact
 
 For technical questions and issues related to this site, the best way to
-contact me is by using [GitHub
-issues](https://github.com/risa2000/vrdocs/issues).
+contact me is by using [GitHub issues]({{ site.github.issues_url }}).
 
 For discussions I prefer public forums. I am usually present on [Pimax
 forum](https://forum.pimaxvr.com) as @risa2000. From time to time, under the
