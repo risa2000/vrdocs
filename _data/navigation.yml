@@ -2,8 +2,8 @@
   link: /#
   dropdown:
     - name: HMD FOV calculation
-      link: /docs/hmd_fov_calculation/
+      link: /docs/hmd_fov_calculation.html
 - name: Changelog
-  link: /Changelog/
+  link: /Changelog.html
 - name: Contact
-  link: /contact/
+  link: /contact.html
